@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogRocketBindings", "LogRocketBindings.csproj", "{B5D04BAB-3860-40A8-9FF3-F29A9F73CD99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5D04BAB-3860-40A8-9FF3-F29A9F73CD99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D04BAB-3860-40A8-9FF3-F29A9F73CD99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D04BAB-3860-40A8-9FF3-F29A9F73CD99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D04BAB-3860-40A8-9FF3-F29A9F73CD99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {996E3659-B970-4FE9-85BC-3BF77D104379}
+	EndGlobalSection
+EndGlobal
