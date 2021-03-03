@@ -6,4 +6,31 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+
+  <attr
+    path="/api/package[@name='com.logrocket.core.network']/class[@name='NullRequestBuilder']/method[@name='Capture']"
+    name="managedReturn">
+    Com.Logrocket.Core.Network.IResponseBuilder
+  </attr>
+  <attr
+    path="/api/package[@name='com.logrocket.core.network']/class[@name='NullRequestBuilder']/method[@name='putHeader']"
+    name="managedReturn">
+  Com.Logrocket.Core.Network.IRequestBuilder
+  </attr>
+  <attr path="/api/package[@name='com.logrocket.core.network']/class[@name='NullRequestBuilder']/method[@name='setBody']"
+        name="managedReturn">
+    Com.Logrocket.Core.Network.IRequestBuilder
+  </attr>
+  <attr path="/api/package[@name='com.logrocket.core.network']/class[@name='NullRequestBuilder']/method[@name='setHeaders']"
+        name="managedReturn">
+    Com.Logrocket.Core.Network.IRequestBuilder
+  </attr>
+  <attr path="/api/package[@name='com.logrocket.core.network']/class[@name='NullRequestBuilder']/method[@name='setUrl']"
+        name="managedReturn">
+    Com.Logrocket.Core.Network.IRequestBuilder
+  </attr>
+  <attr path="/api/package[@name='com.logrocket.core.network']/class[@name='NullRequestBuilder']/method[@name='setMethod']"
+        name="managedReturn">
+    Com.Logrocket.Core.Network.IRequestBuilder
+  </attr>
 </metadata>
